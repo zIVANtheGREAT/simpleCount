@@ -23,4 +23,20 @@ public class summer
         return "My name is " + str + ", my age is " + age +
                 " and I hope to earn $" + sal + " per year";
     }
+
+    /**This method will output a star pattern
+     * @return the star pattern
+     */
+
+    static String starPattern()
+    {
+        return "     *\n" +
+                "    ***\n" +
+                "   *****\n" +
+                "  *******\n" +
+                "   *****\n" +
+                "    ***\n" +
+                "     +";
+
+    }
 }

@@ -1,3 +1,9 @@
+/*
+    This program is just for practicing
+    the chapter 2 Java Challenges in
+    Starting out with Java book
+ */
+
 public class Simple_Count
 {
     static int sum(int x, int y)
@@ -8,6 +14,7 @@ public class Simple_Count
     public static void main(String[] args)
     {
         //Declarations
+        //-----Used for nameAgeSalary method
         String name;
         int age;
         double salary;
@@ -17,7 +24,10 @@ public class Simple_Count
         age = 34;
         salary = 59345.50;
 
+        //This will call the nameAgeSalary method in the summer class.
         System.out.println(summer.nameAgeSalary(name, age, salary));
+        //This will call the starPattern method in the summer class
+        System.out.println(summer.starPattern());
 
         System.out.println(sum(3, 4));
         System.out.println("Hello. Let the code begin.");
